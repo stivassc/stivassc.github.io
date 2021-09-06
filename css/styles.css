@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+:root {
+    --primary_yellow : #f5ea16; /* var(--primary_yellow) */
+    --primary_dark : #212529;
+}
+
+/* body {
+    background-color: #69b4ff;
+    font-size: larger;
+} */
+
+.my_bg {
+    background-color: #2b2e30 !important;
+}
+
+
+/* kleuren aanpassen van button op navbar */
+.btn-outline-warning:active, .btn-outline-warning:hover {
+    background-color: var(--primary_yellow) !important;
+    color : var(--primary_dark) !important;
+}
+
+.btn-outline-warning {
+    border-color: var(--primary_yellow) !important;
+    color : var(--primary_yellow) !important;
+}
+
+.primary {
+    display : flex;  
+    flex-direction: row;  
+    background-color: violet;
+}
+
+.logo {
+    display : flex;
+    width: 30%;
+    height: auto;
+}
+
+ .intro {
+    /* display : flex; */
+    color :#f1f1f1;
+    margin-left: 1em;
+
+} 
