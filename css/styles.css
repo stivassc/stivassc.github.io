@@ -1,9 +1,31 @@
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  } */
+
+  html {
+    position: relative;
+    min-height: 100%;
   }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+    
+    padding-bottom:0;   
+    
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #2b2e30;
+  }
+
+
 
 
 :root {
@@ -16,8 +38,16 @@
     font-size: larger;
 } */
 
-.my_bg {
+.bg-dark-gray {
     background-color: #2b2e30 !important;
+}
+
+.logo-color {
+    fill: #464646 !important;
+}
+
+.my-navbar {
+    border-bottom : 3px solid var(--primary_yellow)  !important;
 }
 
 
@@ -32,6 +62,11 @@
     color : var(--primary_yellow) !important;
 }
 
+/* .border-bottom {
+    border-color : violet !important;
+} */
+
+/* 
 .primary {
     display : flex;  
     flex-direction: row;  
@@ -40,13 +75,18 @@
 
 .logo {
     display : flex;
-    width: 30%;
-    height: auto;
-}
+    margin-top: 2em;
+    padding-top: 6em;
+     height: 10%;
+    width: auto; 
+ } 
 
  .intro {
-    /* display : flex; */
+    display : flex;
+    padding-left : 2em;
     color :#f1f1f1;
-    margin-left: 1em;
+    margin-left: 3em;
+    margin-top: 2em;
+    padding-top: 2em;
 
-} 
+}  */
