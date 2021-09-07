@@ -24,8 +24,11 @@
     height: 50px;
     background-color: #2b2e30;
   }
-
-
+  
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 :root {
@@ -33,10 +36,9 @@
     --primary_dark : #212529;
 }
 
-/* body {
-    background-color: #69b4ff;
-    font-size: larger;
-} */
+.text-decoration-none, .text-decoration-none:hover{
+    color: inherit;
+}
 
 .bg-dark-gray {
     background-color: #2b2e30 !important;
@@ -51,7 +53,6 @@
 }
 
 
-/* kleuren aanpassen van button op navbar */
 .btn-outline-warning:active, .btn-outline-warning:hover {
     background-color: var(--primary_yellow) !important;
     color : var(--primary_dark) !important;
@@ -62,31 +63,3 @@
     color : var(--primary_yellow) !important;
 }
 
-/* .border-bottom {
-    border-color : violet !important;
-} */
-
-/* 
-.primary {
-    display : flex;  
-    flex-direction: row;  
-    background-color: violet;
-}
-
-.logo {
-    display : flex;
-    margin-top: 2em;
-    padding-top: 6em;
-     height: 10%;
-    width: auto; 
- } 
-
- .intro {
-    display : flex;
-    padding-left : 2em;
-    color :#f1f1f1;
-    margin-left: 3em;
-    margin-top: 2em;
-    padding-top: 2em;
-
-}  */
