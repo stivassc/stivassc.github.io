@@ -11,8 +11,8 @@
   }
   body {
     /* Margin bottom by footer height */
-    margin-bottom: 50px;
-    
+    margin-bottom: 100px;
+    clear : both;
     padding-bottom:0;   
     
   }
@@ -30,6 +30,15 @@
     color: inherit;
 }
 
+.card {
+  background-color: #2b2e30;
+}
+
+.cropped-img {
+  width: 470 !important;
+  height: 660 !important;
+  overflow: hidden !important;
+}
 
 :root {
     --primary_yellow : #f5ea16; /* var(--primary_yellow) */
