@@ -29,7 +29,26 @@
     text-decoration: none;
     color: inherit;
 }
+/* @media only screen and (min-width : 480px) {
 
+} */
+ @media only screen and (max-width:900px){
+  .sizing {
+    height: auto  !important;
+    width: 100vw !important;
+    
+  }
+} 
+
+.sizing {
+  height: 450px;
+  width: 100%;
+  object-fit:fill; 
+}
+
+.carousel-inner img {
+  margin: auto;
+}
 .card {
   background-color: #2b2e30;
 }
