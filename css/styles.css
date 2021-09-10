@@ -32,14 +32,25 @@
 /* @media only screen and (min-width : 480px) {
 
 } */
- @media only screen and (max-width:900px){
+ @media (max-width:576px){
   .sizing {
     height: auto  !important;
-    width: 100vw !important;
-    
+    width: 100vw !important; 
+  }
+
+  .voorpagina {
+    flex-direction: column-reverse !important;
+    align-content: stretch !important;
+    align-items: stretch !important;
+    flex-grow: 1 !important;
   }
 } 
-
+.voorpagina {
+  flex-direction: row;
+  /* align-content: stretch !important;
+  align-items: stretch !important; */
+  /* flex-grow: 1 !important; */
+}
 .sizing {
   height: 450px;
   width: 100%;
