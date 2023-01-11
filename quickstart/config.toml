@@ -1,8 +1,9 @@
-baseURL = "/"
+baseURL = "https://stivassc.github.io/"
 languageCode = "en-us"
 theme = "poison"
 paginate = 5
 pluralizelisttitles = false
+publishDir = "docs"
 
 [params]
     brand = "Stijn Vanassche"                    # name of your site - appears in the sidebar
